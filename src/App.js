@@ -18,25 +18,30 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <UserProvider>
+    <div className="app-container">
       {" "}
-      {/* UserProvider로 App 전체를 감싸 context가 적용 */}
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/profile" element={<Profile />} />
-        <Route path="/profile/edit" element={<ProfileEdit />} />
-        <Route path="/challenge" element={<Challenge />} />
-        <Route path="/board/*" element={<BoardRoutes />} />
-        <Route path="/findError" element={<ErrorGame />} />
-        <Route path="/ranking" element={<RankingPage />} />
-        <Route path="/typetest" element={<TypeTest />} />
-        <Route path="/promotion" element={<PromotionPage />} />
-      </Routes>
-      <Footer />
-
-    </UserProvider>
+      {/* 전체 레이아웃 */}
+      <UserProvider>
+        <Header />
+        <div className="content">
+          {" "}
+          {/* 메인 컨텐츠 영역 */}
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/profile" element={<Profile />} />
+            <Route path="/profile/edit" element={<ProfileEdit />} />
+            <Route path="/challenge" element={<Challenge />} />
+            <Route path="/board/*" element={<BoardRoutes />} />
+            <Route path="/findError" element={<ErrorGame />} />
+            <Route path="/ranking" element={<RankingPage />} />
+            <Route path="/typetest" element={<TypeTest />} />
+            <Route path="/promotion" element={<PromotionPage />} />
+          </Routes>
+        </div>
+        <Footer />
+      </UserProvider>
+    </div>
   );
 }
 
