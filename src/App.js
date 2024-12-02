@@ -14,6 +14,7 @@ import ErrorGame from "./routes/ErrorGame";
 import RankingPage from "./routes/RankingPage";
 import TypeTest from "./routes/TypeTest";
 import PromotionPage from "./routes/PromotionPage";
+import NotFound from "./routes/NotFound";
 import Footer from "./components/Footer";
 
 function App() {
@@ -37,6 +38,8 @@ function App() {
             <Route path="/ranking" element={<RankingPage />} />
             <Route path="/typetest" element={<TypeTest />} />
             <Route path="/promotion" element={<PromotionPage />} />
+
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
         <Footer />
