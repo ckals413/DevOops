@@ -81,21 +81,12 @@ DevOops에서 실수를 게임으로, 경험을 성장으로 바꾸고 동료들
 
   </details>
 
-
-
-
-
-
-
-
-
-
 ---
 
 ## 🛠️ 설치 
 
  
-####🚨🚨 Install 모아보기 🚨🚨
+#### 🚨🚨 Install 모아보기 🚨🚨
 ```
     npm install
     npm install react-router-dom
@@ -115,6 +106,9 @@ DevOops에서 실수를 게임으로, 경험을 성장으로 바꾸고 동료들
     npm install @reduxjs/toolkit react-redux
 ```
 
+ <details>
+    <summary>🛠️🛠️ 프로젝트 클론/설치 상세정보 🛠️🛠️</summary>
+    
 1. 저장소를 클론:
    ```bash
    git clone https://github.com/KDH000/DevOops.git
@@ -178,14 +172,31 @@ DevOops에서 실수를 게임으로, 경험을 성장으로 바꾸고 동료들
     npm install @reduxjs/toolkit
     ```
 
+  </details>
+
+
 ---
 ##  📌 프로젝트실행 
 ``` 
 npm start
 ```
 ### 로그인 데이터
-| 아이디    | 비번  |
-| ------------- | ----------- |
-| ckals413  | 1234  |
+| 아이디      | 비번      |
+|------------|-----------|
+| ckals413   | 123456    |
+| jjang9     | 987654    |
+| dong       | qwerty    |
+| suki       | zxcvbn    |
+| nanana     | poiuyt    |
 
-
+<!-- <table>
+  <tbody>
+    <tr>
+      <td align="center"><a href=""><img src="" width="100px;" alt="김동혁"/><br /><sub><b>FE 팀원 :임차민 </b></sub></a><br /></td>
+      <td align="center"><a href=""><img src="" width="100px;" alt="나유성"/><br /><sub><b>나유성</b></sub></a><br /></td>
+      <td align="center"><a href=""><img src="" width="100px;" alt="김서희"/><br /><sub><b> </b>김서희</sub></a><br /></td>
+      <td align="center"><a href="https://github.com/ckals413"><img src="" width="100px;" alt="임차민"/><br /><sub><b>임차민</b></sub></a><br /></td>
+ 
+     </tr>
+  </tbody>
+</table> -->
